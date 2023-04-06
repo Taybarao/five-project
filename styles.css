@@ -1,0 +1,143 @@
+:root{
+    --color-principal: #ffffff;
+    --cinza-2:#c0c0c0; 
+    --azul-bt:#167bf7;
+    --back-color:#00030c;
+    --font-principal:'inter'; 
+} 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--back-color);
+    color: var(--color-principal);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+.sec-1{
+    background-image:url(fts/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.bt-sec1{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--color-principal);
+    display: block;
+    border: 0px solid var(--color-principal);
+    transition: .6s; 
+    box-shadow: inset 0px 0px 10px  rgb(240, 237, 237);
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.ti-sec1{
+    font-size: 28px;
+    font-weight: 700;
+}
+.rec-sec1{
+    font-size: 12px;
+    color: var(--cinza-2);
+}
+.img-sec1{
+    margin:1em 0 2em 0 ;
+}
+.cont-sec1{
+    margin: 0 6em;
+  }
+.sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;  
+    margin: 0 10em;
+    height: 100vh;
+}
+.img-sec{
+    width: 80%;
+}
+.ti-sec{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-principal);
+    margin-bottom: .1em;
+}
+.p-sec{
+    color: var(--cinza-2);
+}
+.bt-sec3{
+    display: inline-block;
+    margin-top: 1em;
+    }
+.rec-sec{
+    padding: 2em;
+}
+.list-disp{
+    display: flex;
+    justify-content: center;
+    list-style-type:  none;
+    margin: 5em 0;
+}
+.dispositivos{
+text-align: center;
+}
+.ti-disp{
+    font-size: 48px;
+    color: var(--color-principal);
+}
+.list-it{
+font-size: 32px;
+color: var(--color-principal);
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+.list-footer{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.img-footer{
+    margin: 1em 0;
+}
+.list-link-fo{
+    padding: 10px;
+}
+.list-footer a{
+    text-decoration: none;
+    color: var(--color-principal);
+}
+.list-link-fo a:hover{
+     color: var(--azul-bt);
+}
+.list-link-fo a:active{
+    color: purple;
+}
+.bt-sec1:hover{
+    box-shadow: inset 5px 0px 25px  rgba(141, 120, 196, 0.804); 
+    transition: .2s;  
+}
+.bt-sec1:active{
+    box-shadow: inset 5px 0px 1px 25px transparent; 
+    transition: 1.2s;
+    color: transparent;
+}
+.text-fo{
+    padding: 0 30px;
+    margin: 10px 0;
+}
+
+
+
+
+
